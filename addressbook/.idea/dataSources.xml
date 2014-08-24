@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="1566452417">
+    <data-source source="LOCAL" name="Android SQLite" uuid="8b6778e3-2879-4b4b-8431-fe5b22adf0d5">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$USER_HOME$/.IntelliJIdea13/system/android/databases/SERIAL_NUMBER_0009fdc32c9b50/com.alex.addressbook/internal/alex.db</jdbc-url>
+      <libraries>
+        <library>
+          <url>file://$USER_HOME$/.IntelliJIdea13/config/jdbc-drivers/xerial-sqlite-license.txt</url>
+        </library>
+        <library>
+          <url>file://$USER_HOME$/.IntelliJIdea13/config/jdbc-drivers/sqlite-jdbc-3.7.6.3-20110609.081603-3.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+  </component>
+</project>
+

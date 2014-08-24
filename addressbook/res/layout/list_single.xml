@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+    <TableRow>
+    <TextView
+            android:id="@+id/surnmeCustom"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:textColor="#ff00ff"/>
+
+    <TextView
+            android:id="@+id/cellPhneNumCustom"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:textColor="#ff00ff"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="More Details"
+            android:id="@+id/moreDetCustom" android:layout_x="0dp" android:layout_y="10dp"
+            android:clickable="true"/>
+
+    </TableRow>
+</TableLayout>

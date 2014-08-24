@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+    <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <AbsoluteLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/FillInDetails"
+            android:id="@+id/textViewDetails" android:layout_x="4dp" android:layout_y="7dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/FirstName"
+            android:id="@+id/textViewFirstName" android:layout_x="4dp" android:layout_y="55dp"/>
+    <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextFirstName" android:layout_x="4dp" android:layout_y="77dp"
+            android:hint="First Name" android:textColorHint="#ff00f7ff"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceMedium" android:text="@string/LastName"
+              android:id="@+id/textViewLastName" android:layout_x="4dp" android:layout_y="125dp"/>
+
+    <EditText android:layout_width="200dp" android:layout_height="wrap_content" android:id="@+id/editTextLastName"
+              android:layout_x="4dp" android:layout_y="153dp" android:hint="Last Name"
+              android:textColorHint="#ff00f7ff"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceMedium" android:text="@string/EmailAddress"
+              android:id="@+id/textView" android:layout_x="4dp" android:layout_y="204dp"/>
+
+    <EditText android:layout_width="200dp" android:layout_height="wrap_content" android:id="@+id/editTextEmailAddress"
+              android:layout_x="4dp" android:layout_y="231dp" android:hint="E-mail Address"
+              android:textColorHint="#ff00f7ff"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceMedium" android:text="@string/CellPhoneNumber"
+              android:id="@+id/textView2" android:layout_x="4dp" android:layout_y="282dp"/>
+
+    <EditText android:layout_width="200dp" android:layout_height="wrap_content" android:id="@+id/editTextCellPhoneNumber"
+              android:layout_x="4dp" android:layout_y="308dp" android:hint="Cell Phone Number"
+              android:textColorHint="#ff00f7ff"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceMedium" android:text="@string/HomeAddress"
+              android:id="@+id/textView3" android:layout_x="4dp" android:layout_y="354dp"/>
+
+    <EditText android:layout_width="200dp" android:layout_height="wrap_content" android:id="@+id/editTextHomeAddress"
+              android:layout_x="4dp" android:layout_y="379dp" android:hint="Home Address"
+              android:textColorHint="#ff00f7ff"/>
+
+    <Button
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:text="@string/BackBtn" android:layout_x="20dp" android:layout_y="452dp" android:id="@id/backBtn"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/SaveBtn"
+            android:id="@+id/saveBtn" android:layout_x="177dp" android:layout_y="452dp"/>
+            </AbsoluteLayout>
+    </ScrollView>
+</AbsoluteLayout>

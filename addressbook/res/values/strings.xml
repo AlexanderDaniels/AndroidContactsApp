@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Address Book</string>
+    <string name="FillInDetails">Please enter in the following details:</string>
+    <string name="FirstName">First Name: </string>
+    <string name="LastName">Last Name: </string>
+    <string name="EmailAddress">E-mail Address: </string>
+    <string name="CellPhoneNumber">Cell Phone Number: </string>
+    <string name="HomeAddress">Home Address: </string>
+    <string name="BackBtn">Back</string>
+    <string name="SaveBtn">Save Details</string>
+    <string name="getValue"></string>
+
+</resources>

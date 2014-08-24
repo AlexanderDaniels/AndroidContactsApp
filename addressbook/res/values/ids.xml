@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="backBtn" type="id">Back</item>
+    <item name="moreDetails" type="id"/>
+    <item name="listViewContacts" type="id"/>
+</resources>
